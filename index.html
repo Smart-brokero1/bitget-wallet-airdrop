@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitget- Spring into winning: 100% chances of winning</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bounties.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <style>
+    .social-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+    .social-link {
+      color: #333; /* Default icon color */
+      font-size: 24px;
+      transition: color 0.3s ease;
+    }
+    .social-link:hover {
+      color: #0077ff; /* Hover color (adjust as needed) */
+    }
+    .language-switcher {
+  margin-left: 20px;
+}
+
+#language-selector {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+  </style>
+  </head>
+  
+
+<body>
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="32" height="32" alt="Cryptex logo">
+      Bitget Wallet
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+          <a href="#" class="navbar-link active" data-nav-link data-translate="homepage">Homepage</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://www.bitgetapp.com/buy-sell-crypto/cashier" class="navbar-link" data-nav-link data-translate="buy_crypto">Buy Crypto</a>
+          </li>
+
+          <li class="navbar-item">
+         <a href="https://www.bitgetapp.com/markets" class="navbar-link" data-nav-link data-translate="markets">Markets</a>          </li>
+
+          <li class="navbar-item">
+            <a href="https://www.bitgetapp.com/web3" class="navbar-link" data-nav-link data-translate="trade">Trade</a>
+          </li>
+
+        
+
+          <li class="navbar-item">
+           <a href="#" class="navbar-link" data-nav-link data-translate="about_airdrops">About airdrops</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+           <div class="language-switcher">
+        <select id="language-selector" onchange="changeLanguage()">
+          <option value="en">English</option>
+          <option value="hu">Magyar</option>
+          <option value="el">Ελληνικά</option>
+        </select>
+      </div>
+  </header>
+
+    <main>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="hero" data-section>
+          <hr class="thin" />
+          <img
+            class="logo2"
+            src="./assets/images/logo2.svg"
+            width="86"
+            height="86"
+            alt="Bitget2 logo"
+          />
+
+          <div class="container">
+            <div class="hero-content">
+              <figure class="hero-banner">
+                <img
+                  src="assets/images/mainImg.png"
+                  width="300"
+                  height="200"
+                  alt="hero banner"
+                />
+              </figure>
+              <p class="aird" data-translate="aird">Complete tasks to get free airdrops</p>
+              <h3 class="3 hero-title" data-translate="hero_title">
+              Create an account today and start winning: 100% chances to winning
+               </h3>
+            </div>
+
+            <div class="countdown-container">
+              <h3 class="countdown-title" data-translate="prom">Promotion ends in</h3>
+              <div class="countdown">
+                <div class="countdown-item">
+                  <span id="days">00</span>
+                  <span>D</span>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                  <span id="hours">00</span>
+                  <span>H</span>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                  <span id="minutes">00</span>
+                  <span>M</span>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                  <span id="seconds">00</span>
+                  <span>S</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-container">
+              <a href="register.html" class="hero-btn" data-translate="join">Join</a>
+            </div>
+
+            <!-- Add the swiper here -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <!-- Slides will be added by JavaScript -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="Bounties" aria-label="" data-section>
+          <div>
+            <div
+              class="pt-[40px] md:pt-[60px] lg:pt-[80px] nxl:pt-[100px] mb-[24px] md:mb-[32px] lg:mb-[40px] nxl:mb-[50px]"
+            >
+              <h3
+                class="mb-[8px] md:mb-[10px] lg:mb-[12px] nxl:mb-[12px] text-[--tit-text-color]"
+              >
+                <div class="flex justify-center items-center">
+                  <div
+                    class="text-[16px] leading-[20px] font-[700] text-center md:text-[24px] md:leading-[34px] lg:text-[30px] lg:leading-[42px] nxl:text-[32px] nxl:leading-[50px] activities_award__IxutR"
+                  data-translate="bounties">
+                    Bounties
+                  </div>
+                  <span></span>
+                </div>
+              </h3>
+              <div
+                class="text-[12px] leading-[16px] text-center lg:text-[14px] lg:leading-[16px] nxl:text-[16px] nxl:leading-[20px] text-[--tit-sub-color] activities_turnable_title__WbMsN"
+             data-translate="bounties_sub" >
+                Complete tasks to receive Airdrops.
+              </div>
+            </div>
+            <div
+              class="Turntable_actTurntableValentine__8BXxc activities_containerPadding__bieiX relative"
+            >
+              <div class="relative flex justify-center mx-auto">
+                <div
+                  class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-[10px] md:gap-[20px] items-center justify-center w-full"
+                >
+                  <div
+                    class="w-full aspect-square min-w-[109px] min-h-[109px] Turntable_boxItem__FteEg"
+                  >
+                    <div class="flex items-center justify-evenly w-full h-full">
+                      <div
+                        class="flex flex-col items-center justify-between w-full mt-[2px]"
+                      >
+                        <img
+                          src="https://img.bgstatic.com/multiLang/web/255f387cb741d75a6d5d9b67944ef62d.png"
+                          alt="f4473d0a841bfa30ee9bf40f598052e1"
+                          loading="lazy"
+                          decoding="async"
+                          class="w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+                        />
+                        <div
+                          class="flex flex-col text-center justify-center items-center text-[--draw-content-text] font-[400] text-[12px] leading-[14px] mt-[6px] max-w-[80px] h-[28px] md:text-[14px] md:mt-[10px] md:max-w-[110px] md:h-[28px]"
+                          dir="ltr"
+                        >
+                          <div class="Turntable_award__PrZRr">
+                            <span>$1000 + </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full aspect-square min-w-[109px] min-h-[109px] Turntable_boxItem__FteEg"
+                  >
+                    <div class="flex items-center justify-evenly w-full h-full">
+                      <div
+                        class="flex flex-col items-center justify-between w-full mt-[2px]"
+                      >
+                        <img
+                          src="https://img.bgstatic.com/multiLang/web/255f387cb741d75a6d5d9b67944ef62d.png"
+                          alt="21bc4ff5a63cf53e830ab11e37f85232"
+                          loading="lazy"
+                          decoding="async"
+                          class="w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+                        />
+                        <div
+                          class="flex flex-col text-center justify-center items-center text-[--draw-content-text] font-[400] text-[12px] leading-[14px] mt-[6px] max-w-[80px] h-[28px] md:text-[14px] md:mt-[10px] md:max-w-[110px] md:h-[28px]"
+                          dir="ltr"
+                        >
+                          <div class="Turntable_award__PrZRr">
+                            <span>$3000 + </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full aspect-square min-w-[109px] min-h-[109px] Turntable_boxItem__FteEg"
+                  >
+                    <div class="flex items-center justify-evenly w-full h-full">
+                      <div
+                        class="flex flex-col items-center justify-between w-full mt-[2px]"
+                      >
+                        <img
+                          src="https://img.bgstatic.com/multiLang/web/255f387cb741d75a6d5d9b67944ef62d.png"
+                          alt="928c6579e63676281dee478df99194f9"
+                          loading="lazy"
+                          decoding="async"
+                          class="w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+                        />
+                        <div
+                          class="flex flex-col text-center justify-center items-center text-[--draw-content-text] font-[400] text-[12px] leading-[14px] mt-[6px] max-w-[80px] h-[28px] md:text-[14px] md:mt-[10px] md:max-w-[110px] md:h-[28px]"
+                          dir="ltr"
+                        >
+                          <div class="Turntable_award__PrZRr">
+                            <span>$7000 + </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full aspect-square min-w-[109px] min-h-[109px] Turntable_boxItem__FteEg"
+                  >
+                    <div class="flex items-center justify-evenly w-full h-full">
+                      <div
+                        class="flex flex-col items-center justify-between w-full mt-[2px]"
+                      >
+                        <img
+                          src="https://img.bgstatic.com/multiLang/web/255f387cb741d75a6d5d9b67944ef62d.png"
+                          alt="f4473d0a841bfa30ee9bf40f598052e1"
+                          loading="lazy"
+                          decoding="async"
+                          class="w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+                        />
+                        <div
+                          class="flex flex-col text-center justify-center items-center text-[--draw-content-text] font-[400] text-[12px] leading-[14px] mt-[6px] max-w-[80px] h-[28px] md:text-[14px] md:mt-[10px] md:max-w-[110px] md:h-[28px]"
+                          dir="ltr"
+                        >
+                          <div class="Turntable_award__PrZRr">
+                            <span>$12,000 + 
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full aspect-square min-w-[109px] min-h-[109px] Turntable_boxItem__FteEg"
+                  >
+                    <div class="flex items-center justify-evenly w-full h-full">
+                      <div
+                        class="flex flex-col items-center justify-between w-full mt-[2px]"
+                      >
+                        <img
+                          src="https://img.bgstatic.com/multiLang/web/255f387cb741d75a6d5d9b67944ef62d.png"
+                          alt="21bc4ff5a63cf53e830ab11e37f85232"
+                          loading="lazy"
+                          decoding="async"
+                          class="w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+                        />
+                        <div
+                          class="flex flex-col text-center justify-center items-center text-[--draw-content-text] font-[400] text-[12px] leading-[14px] mt-[6px] max-w-[80px] h-[28px] md:text-[14px] md:mt-[10px] md:max-w-[110px] md:h-[28px]"
+                          dir="ltr"
+                        >
+                          <div class="Turntable_award__PrZRr">
+                            <span>$17, 000 + </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full aspect-square min-w-[109px] min-h-[109px] Turntable_boxItem__FteEg"
+                  >
+                    <div class="flex items-center justify-evenly w-full h-full">
+                      <div
+                        class="flex flex-col items-center justify-between w-full mt-[2px]"
+                      >
+                        <img
+                          src="https://img.bgstatic.com/multiLang/web/255f387cb741d75a6d5d9b67944ef62d.png"
+                          alt="2a266d4edeae998dc362fa914a91b3e5"
+                          loading="lazy"
+                          decoding="async"
+                          class="w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+                        />
+                        <div
+                          class="flex flex-col text-center justify-center items-center text-[--draw-content-text] font-[400] text-[12px] leading-[14px] mt-[6px] max-w-[80px] h-[28px] md:text-[14px] md:mt-[10px] md:max-w-[110px] md:h-[28px]"
+                          dir="ltr"
+                        >
+                          <div class="Turntable_award__PrZRr">
+                            <span>$20,000 + </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="register.html" class="hero-btn" data-translate="join">Join</a>
+              </div>
+            </div>
+<div class="activities_containerPadding__bieiX" style="padding: 0 20px; max-width: 1200px; margin: 0 auto;">
+  <div>
+    <div class="pt-[40px] md:pt-[60px] lg:pt-[80px] nxl:pt-[100px] mb-[24px] md:mb-[32px] lg:mb-[40px] nxl:mb-[50px]" style="padding: 0 15px;">
+      <h3 class="mb-[8px] md:mb-[10px] lg:mb-[12px] nxl:mb-[12px] text-[--tit-text-color]">
+        <div class="flex justify-center items-center">
+          <div class="text-[16px] leading-[20px] font-[700] text-center md:text-[24px] md:leading-[34px] lg:text-[30px] lg:leading-[42px] nxl:text-[32px] nxl:leading-[50px] activities_award__IxutR" data-translate="rules">Rules</div>
+          <span></span>
+        </div>
+      </h3>
+    </div>
+  </div>
+  
+  <div class="activities_ruleBox__nVdwv text-[14px] md:text-[16px] lg:text-[20px] text-[--tit-text-color]" style="padding: 0 20px; line-height: 1.6;">
+    <div>
+      <div class="ace-line ace-line old-record-id-Ru5Zd1KD5o17ILxzgIoljpsigQy">
+        <div>
+          <div class="ace-line ace-line old-record-id-ZR0Cdc3OloRD5dxBVWplG1xagLd" style="margin-bottom: 15px;">
+            <span style="color:rgb(5, 195, 221); font-weight: bold;"  data-translate="profit">
+              Profit boost! ETH savings with up 15% APR! 
+              <a style="color:rgb(5, 195, 221); text-decoration: underline;" href="https://www.bitget.com/earning/savings?secondBizLine=SavingsFixed&productId=1281847754993590272&anonymous=1" rel="">Buy now!</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="ace-line ace-line old-record-id-Ru5Zd1KD5o17ILxzgIoljpsigQy" style="margin-bottom: 20px;">&nbsp;</div>
+      
+      <div class="ace-line ace-line old-record-id-Ru5Zd1KD5o17ILxzgIoljpsigQy" style="margin-bottom: 15px;" data-translate="terms">
+        <strong>Terms & Conditions:</strong>
+      </div>
+      
+      <div class="ace-line ace-line old-record-id-OfwgdQcMvoQ6SwxcJfplPA1UgBd" style="margin-bottom: 10px;" data-translate="camp">
+        1. The campaign is only available for users from Canada/Australia/DACH/French/Italian/Sweden/Poland and other europe regions.
+      </div>
+      
+      <div class="ace-line ace-line old-record-id-Ve3ddahWKoTo3cxr92blni31gmh" style="margin-bottom: 10px;" data-translate="total">
+        2. The total incentive pool is 20,000 USDT, first come first served.
+      </div>
+      
+      <div class="ace-line ace-line old-record-id-QuNZdaBxbozI7oxHXXwllPqJgTc" style="margin-bottom: 10px;" data-translate="users">
+        3. Users must complete KYC verification to get incentives. API and broker users are not allowed to participate in this event.
+      </div>
+      
+      <div class="ace-line ace-line old-record-id-JufJd38U4oYnAdx7SbblL1hMgVd" style="margin-bottom: 10px;" data-translate="rewards">
+        4. Rewards will be distributed within 10 business days after the end of the campaign. This event does not share rewards with others.
+      </div>
+      
+      <div class="ace-line ace-line old-record-id-SqWKd9IHZocnNsxd2A5llvEJgUc" style="margin-bottom: 10px;" data-translate="five">
+        5. Users who register with multiple accounts using the same IP address will not be eligible for the rewards.
+      </div>
+      
+      <div class="ace-line ace-line old-record-id-LCaVdzfjOoA9lax4EkjlT6ukgpe" style="margin-bottom: 20px;" data-translate="six">
+        6. Bitget may disqualify users from participating in this event if any violation of the rules or immoral behaviors are detected, and reserves the right to change the event rules.
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </section>
+ <img 
+  src="https://brokers.education.investing.com/wp-content/uploads/2024/07/1.png" 
+  alt="Brokers Education Image" 
+  class="responsive-image"
+  style="display: block; max-width: 100%; height: auto; padding: 0 20px; margin: 0 auto; box-sizing: border-box;"
+>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" data-section>
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.jpg" width="748" height="436" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title" data-translate="what_is">What Is Bitget Wallet</h2>
+
+            <p class="section-text" data-translate="wallet_desc">
+             Bitget Wallet (formerly BitKeep) is a multi-chain cryptocurrency wallet and decentralized finance (DeFi) platform that supports over 100 blockchains. 
+            </p>
+
+            <ul class="section-list">
+
+              <li class="section-item">
+                <div class="title-wrapper">
+  
+
+                  <h3 class="h3 list-title" data-translate="celebrate">🎉 Celebrate Bitget Wallet’s 7th Anniversary with Exclusive Airdrops! 🎉
+</h3>
+                </div>
+
+                <p class="item-text" data-translate="celebrate_desc">
+                 To thank our loyal community, Bitget Wallet is launching a special 7th Anniversary Airdrop Giveaway for both old and new users!
+                </p>
+              </li>
+
+              <li class="section-item">
+                <div class="title-wrapper">
+
+                 <h3 class="h3 list-title" data-translate="participate">How to participate</h3>
+                </div>
+
+                <p class="item-text"  data-translate="participate_desc">
+                   Download Bitget Wallet, <br> complete registration, <br> and perform a swap or deposit. <br> 
+                   follow the guidance of our admins <br> for an easy and smooth process of winning the airdrops
+                </p>
+              </li>
+
+            </ul>
+
+            <div class="btn-container">
+                <a href="register.html" class="hero-btn" data-translate="join">Join</a>
+              </div>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
+          <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" data-section>
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="50" height="50" alt="Cryptex logo">
+            Bitget Wallet
+          </a>
+
+          <h2 class="footer-title" data-translate="talk">Let's talk! 🤙</h2>
+
+            <ul class="social-list" style="list-style: none; display: flex; gap: 15px; padding: 0; margin: 0; justify-content: center;">
+    <li>
+      <a href="https://discordapp.com/users/1348820086731051039" class="social-link" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background-color: #5865F2; color: white; font-size: 20px; text-decoration: none; transition: all 0.3s ease;">
+        <i class="fab fa-discord"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://wa.me/447500094986" class="social-link" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background-color: #25D366; color: white; font-size: 20px; text-decoration: none; transition: all 0.3s ease;">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://invite.viber.com/?g=t9z3GDzDfFRJ6UzQ9KavQI_z8ALa2qPg" class="social-link" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background-color: #7360F2; color: white; font-size: 20px; text-decoration: none; transition: all 0.3s ease;">
+        <i class="fab fa-viber"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://t.me/+5B-WWR_HEMY5Zjk0" class="social-link" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background-color: #0088CC; color: white; font-size: 20px; text-decoration: none; transition: all 0.3s ease;">
+        <i class="fab fa-telegram"></i>
+      </a>
+    </li>
+</ul>    
+
+          <a href="mailto:bitgetwalletorg@gmail.com" class="footer-contact-link">bitgetwalletorg@gmail.com</a>
+
+          
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title"  data-translate="services">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link" data-translate="buy_crypto">Buy Crypto</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link" data-translate="markets">Markets</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link" data-translate="trade">Tranding Fee</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link" data-translate="ref">Referral Program</a>
+          </li>
+
+        </ul>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" data-translate="about_us">About Us</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link" data-translate="auth">Authenticity Check</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link" data-translate="blog">Blog</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright" data-translate="right">
+          &copy; 2025 Bitget All Rights Reserved.
+
+
+
+
+      </div>
+    </div>
+
+  </footer>
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+  // Translation data
+  const translations = {
+    en: {
+      homepage: "Homepage",
+      buy_crypto: "Buy Crypto",
+      markets: "Markets",
+      trade: "Trade",
+      prom: "Promotion ends in",
+      about_airdrops: "About airdrops",
+      hero_title: "Create an account today and start winning: 100% chances to winning",
+      aird: "Complete tasks to get free airdrops",
+      bounties: "Bounties",
+      bounties_sub: "Complete tasks to receive Airdrops.",
+      rules: "Rules",
+      what_is: "What Is Bitget Wallet",
+      wallet_desc: "Bitget Wallet (formerly BitKeep) is a multi-chain cryptocurrency wallet and decentralized finance (DeFi) platform that supports over 100 blockchains.",
+      celebrate: "🎉 Celebrate Bitget Wallet's 7th Anniversary with Exclusive Airdrops! 🎉",
+      celebrate_desc: "To thank our loyal community, Bitget Wallet is launching a special 7th Anniversary Airdrop Giveaway for both old and new users!",
+      participate: "How to participate",
+      participate_desc: "Download Bitget Wallet, complete registration, and perform a swap or deposit. follow the guidance of our admins for an easy and smooth process of winning the airdrops",
+      join: "Join",
+      services: "Services",
+      about_us: "About Us",
+      profit: "Profit boost! ETH savings with up 15% APR!",
+      terms: "Terms & Conditions:",
+      camp: "1. The campaign is only available for users from Canada/Australia/DACH/French/Italian/Sweden/Poland and other europe regions.",
+      total: " 2. The total incentive pool is 20,000 USDT, first come first served.",
+      users: " 3. Users must complete KYC verification to get incentives. API and broker users are not allowed to participate in this event.",
+      rewards: " 4. Rewards will be distributed within 10 business days after the end of the campaign. This event does not share rewards with others.",
+      five: " 5. Users who register with multiple accounts using the same IP address will not be eligible for the rewards.",
+      six: " 6. Bitget may disqualify users from participating in this event if any violation of the rules or immoral behaviors are detected, and reserves the right to change the event rules.",
+      talk: "Let's talk! 🤙",
+      ref: "Referral Program",
+      auth: "Authenticity Check",
+      blog: "Blog",
+      right: "2025 Bitget All Rights Reserved."
+    },
+    hu: {
+      homepage: "Kezdőlap",
+      buy_crypto: "Kripto vásárlás",
+      markets: "Piacok",
+      trade: "Kereskedés",
+      about_airdrops: "Airdropokról",
+      prom: "Az akció véget ér",
+      hero_title: "Hozzon létre egy fiókot még ma, és kezdjen el nyerni: 100%-os nyerési esély",
+      aird: "Teljesítsen feladatokat ingyenes airdropokért",
+      bounties: "Jutalmak",
+      bounties_sub: "Teljesíts feladatokat airdropok megszerzéséhez.",
+      rules: "Szabályok",
+      what_is: "Mi a Bitget Wallet",
+      wallet_desc: "A Bitget Wallet (korábban BitKeep) egy több láncot támogató kriptovaluta pénztárca és decentralizált pénzügyi (DeFi) platform, amely több mint 100 blokkláncot támogat.",
+      celebrate: "🎉 Ünnepelje a Bitget Wallet 7. évfordulóját exkluzív airdropokkal! 🎉",
+      celebrate_desc: "Hálából hűséges közösségünknek, a Bitget Wallet különleges 7. évfordulós airdrop ajándékot indít régi és új felhasználók számára egyaránt!",
+      participate: "Hogyan vehetsz részt",
+      participate_desc: "Töltse le a Bitget Wallet-et, regisztráljon, és végezzen cserét vagy befizetést. kövesse adminisztrátoraink útmutatását az airdropok nyerésének egyszerű és zökkenőmentes folyamatáért",
+      join: "Csatlakozás",
+      services: "Szolgáltatások",
+      about_us: "Rólunk",
+      profit: "Profitnövelés! ETH megtakarítás akár 15%-os THM-mel!",
+      terms: "Általános Szerződési Feltételek:",
+      camp: "1. A kampány csak Kanadából/Ausztráliából/DACH-ból/Francia/olasz/Svédország/Lengyelország és más európai régiók felhasználói számára érhető el.",
+      total: "2. A teljes ösztönző alap 20 000 USDT, érkezési sorrendben.",
+      users: "3. A felhasználóknak el kell végezniük a KYC ellenőrzését, hogy ösztönzőket kapjanak. Az API és bróker felhasználók nem vehetnek részt ezen az eseményen.",
+      rewards: "4. A jutalmakat a kampány befejezését követő 10 munkanapon belül kiosztjuk. Ez az esemény nem osztja meg a jutalmakat másokkal.",
+      five: "5. Azok a felhasználók, akik több fiókkal regisztrálnak ugyanazzal az IP-címmel, nem jogosultak a jutalmakra.",
+      six: "6. A Bitget kizárhatja a felhasználókat az eseményből, ha szabálysértést vagy erkölcstelen magatartást észlel, és fenntartja a jogot az esemény szabályainak megváltoztatására.",
+      talk: "Beszélgessünk! 🤙",
+      ref: "Ajánlói program",
+      auth: "Eredetiség ellenőrzése",
+      blog: "Blog",
+      right: "2025 Bitget Minden jog fenntartva."
+
+    },
+    el: {
+      homepage: "Αρχική σελίδα",
+      buy_crypto: "Αγορά κρυπτονομισμάτων",
+      markets: "Αγορές",
+      trade: "Συναλλαγή",
+      about_airdrops: "Σχετικά με τα airdrops",
+      prom: "Η προσφορά λήγει σε",
+      hero_title: "Δημιουργήστε έναν λογαριασμό σήμερα και αρχίστε να κερδίζετε: 100% πιθανότητες να κερδίσετε",
+      aird: "Ολοκληρώστε εργασίες για να λάβετε δωρεάν airdrops",
+      bounties: "Αμοιβές",
+      bounties_sub: "Ολοκληρώστε εργασίες για να λάβετε Airdrops.",
+      rules: "Κανόνες",
+      what_is: "Τι είναι το Bitget Wallet",
+      wallet_desc: "Το Bitget Wallet (παλαιότερα BitKeep) είναι ένα πολυ-αλυσίδων πορτοφόλι κρυπτονομισμάτων και αποκεντρωμένη πλατφόρμα χρηματοοικονομικών (DeFi) που υποστηρίζει πάνω από 100 αλυσίδες.",
+      celebrate: "🎉 Γιορτάστε την 7η επέτειο του Bitget Wallet με αποκλειστικά Airdrops! 🎉",
+      celebrate_desc: "Για να ευχαριστήσουμε την πιστή μας κοινότητα, το Bitget Wallet ξεκινάει μια ειδική δωρεά Airdrop για την 7η επέτειο τόσο για παλιούς όσο και για νέους χρήστες!",
+      participate: "Πώς να συμμετάσχετε",
+      participate_desc: "Κατεβάστε το Bitget Wallet, ολοκληρώστε την εγγραφή και εκτελέστε μια ανταλλαγή ή κατάθεση. ακολουθήστε τις οδηγίες των διαχειριστών μας για μια εύκολη και ομαλή διαδικασία κέρδους των airdrops",
+      join: "Εγγραφή",
+      services: "Υπηρεσίες",
+      about_us: "Σχετικά με εμάς",
+      profit: "Αύξηση κερδών! Εξοικονόμηση ETH με αύξηση 15% ΑΠΡ!",
+      terms: "Όροι & Προϋποθέσεις:",
+      camp: "1. Η καμπάνια είναι διαθέσιμη μόνο για χρήστες από τον Καναδά/Αυστραλία/DACH/Γαλλικά/Ιταλικά/Σουηδία/Πολωνία και άλλες περιοχές της Ευρώπης.",
+      total: "2. Το συνολικό ποσό κινήτρων είναι 20.000 USDT, με σειρά προτεραιότητας.",
+      users: "3. Οι χρήστες πρέπει να ολοκληρώσουν την επαλήθευση KYC για να λάβουν κίνητρα. Οι χρήστες API και μεσίτες δεν επιτρέπεται να συμμετέχουν σε αυτό το συμβάν.",
+      rewards: "4. Οι επιβραβεύσεις θα διανεμηθούν εντός 10 εργάσιμων ημερών μετά το τέλος της καμπάνιας. Αυτό το συμβάν δεν μοιράζεται ανταμοιβές με άλλους.",
+      five: "5. Οι χρήστες που εγγράφονται με πολλούς λογαριασμούς χρησιμοποιώντας την ίδια διεύθυνση IP δεν θα είναι επιλέξιμοι για τις ανταμοιβές.",
+      six:  "6. Το Bitget μπορεί να αποκλείσει τους χρήστες από τη συμμετοχή σε αυτό το συμβάν εάν εντοπιστεί οποιαδήποτε παραβίαση των κανόνων ή ανήθικες συμπεριφορές και διατηρεί το δικαίωμα να αλλάξει τους κανόνες της εκδήλωσης.",
+      talk: "Ας μιλήσουμε! 🤙",
+      ref: "Πρόγραμμα παραπομπής",
+      auth: "Έλεγχος γνησιότητας",
+      blog: "Ιστολόγιο",
+      right: "2025 Bitget Με την επιφύλαξη παντός δικαιώματος."
+
+
+    }
+  };
+
+  // Function to change language
+  function changeLanguage() {
+    const lang = document.getElementById('language-selector').value;
+    document.documentElement.lang = lang;
+    
+    // Update all translatable elements
+    document.querySelectorAll('[data-translate]').forEach(element => {
+      const key = element.getAttribute('data-translate');
+      if (translations[lang] && translations[lang][key]) {
+        element.textContent = translations[lang][key];
+      }
+    });
+  }
+
+  // Initialize with default language
+  document.addEventListener('DOMContentLoaded', function() {
+    changeLanguage();
+  });
+</script>
+  </body>
+</html>
